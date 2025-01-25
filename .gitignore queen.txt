@@ -1,0 +1,73 @@
+# Arquivos de compilação Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensões C
+*.so
+
+# Distribuição e empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+MANIFEST
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testes e relatórios de cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Notebooks e checkpoints
+.ipynb_checkpoints
+
+# Configurações locais e sensíveis
+.env
+.venv
+env/
+venv/
+local_settings.py
+
+# Bancos de dados locais
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos temporários ou locais de frameworks
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+
+# Ferramentas e ambientes específicos
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ropeproject
+.spyderproject
+
+# Celery e SageMath
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+
+# Extras para segurança
+# Por favor, não exponha o que não deve... 👀
+__pypackages__/
+
+# Vamos manter o repositório limpo e profissional, ok? 
+# Aqui não tem espaço para bagunça, só produtividade e estilo. ✨
